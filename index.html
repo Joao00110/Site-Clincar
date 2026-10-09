@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- EDITAR: ajuste o título e a descrição quando os dados oficiais forem definidos -->
+  <title>Clincar | Site institucional</title>
+  <meta name="description" content="Site institucional da Clincar. Conheça a empresa, seus serviços e os canais oficiais de contato.">
+  <meta name="theme-color" content="#b3121c">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Clincar | Site institucional">
+  <meta property="og:description" content="Conheça a Clincar, seus serviços e os canais oficiais de contato.">
+
+  <!-- Ícone neutro (sem logotipo) até o envio da marca oficial -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23b3121c'/%3E%3Crect x='7' y='20' width='18' height='4' rx='2' fill='%23f6b80f'/%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Instrument+Sans:wght@400;500;600&display=swap">
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <div class="demo-bar" role="note">
+    <p>
+      <strong>Versão de demonstração.</strong>
+      Os itens marcados como <span class="tag tag--inline">Provisório</span> serão substituídos pelas informações oficiais da Clincar.
+    </p>
+  </div>
+
+  <!-- ===================== CABEÇALHO ===================== -->
+  <header class="site-header" id="topo">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Clincar — voltar ao início">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-name">Clincar</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menu">
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+      </button>
+
+      <nav class="site-nav" id="menu-principal" aria-label="Menu principal">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="#inicio">Início</a></li>
+          <li><a class="nav-link" href="#sobre">Sobre nós</a></li>
+          <li><a class="nav-link" href="#servicos">Serviços</a></li>
+          <li><a class="nav-link" href="#contato">Contato</a></li>
+        </ul>
+        <a class="btn btn--primary btn--sm nav-cta" href="#contato">Fale conosco</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- ===================== SEÇÃO PRINCIPAL ===================== -->
+    <section class="hero" id="inicio" aria-labelledby="hero-titulo">
+      <div class="hero-bg" aria-hidden="true">
+        <span class="hero-shape hero-shape--red"></span>
+        <span class="hero-shape hero-shape--yellow"></span>
+        <span class="hero-grid"></span>
+      </div>
+
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <p class="eyebrow reveal">Site institucional</p>
+          <!-- EDITAR: substitua pelo slogan oficial, se houver -->
+          <h1 class="hero-title reveal" id="hero-titulo">
+            Conheça a <span class="hl">Clincar</span>.
+          </h1>
+          <p class="hero-lead reveal">
+            Este é o espaço oficial da Clincar na internet. Aqui você encontra quem somos,
+            os serviços que oferecemos e os canais para falar com a nossa equipe.
+          </p>
+          <div class="hero-actions reveal">
+            <a class="btn btn--primary" href="#contato">
+              Entrar em contato
+              <svg class="btn-icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11m-4-4 4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a class="btn btn--ghost" href="#servicos">Conhecer os serviços</a>
+          </div>
+        </div>
+
+        <!-- EDITAR: substitua este quadro por uma foto oficial da Clincar (fachada, equipe ou ambiente) -->
+        <figure class="hero-media reveal" aria-label="Espaço reservado para imagem oficial">
+          <div class="media-frame">
+            <div class="media-placeholder">
+              <svg viewBox="0 0 48 48" aria-hidden="true"><rect x="6" y="10" width="36" height="28" rx="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17" cy="20" r="3.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="m8 34 10-9 7 6 6-5 9 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+              <span class="tag">Provisório</span>
+              <p>Espaço para imagem oficial da Clincar</p>
+            </div>
+          </div>
+          <figcaption class="media-caption">
+            <span class="media-caption-bar" aria-hidden="true"></span>
+            Fotografia institucional a ser enviada pela empresa
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===================== SOBRE NÓS ===================== -->
+    <section class="section about" id="sobre" aria-labelledby="sobre-titulo">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Sobre nós</p>
+          <h2 class="section-title" id="sobre-titulo">Quem é a Clincar</h2>
+          <p class="section-lead">
+            Esta seção reúne a história, a missão e os valores da empresa.
+            Os textos abaixo são provisórios e devem ser substituídos pelas informações oficiais.
+          </p>
+        </header>
+
+        <div class="about-grid">
+          <article class="about-main reveal">
+            <span class="tag">Provisório</span>
+            <h3>Nossa história</h3>
+            <!-- EDITAR: história oficial da Clincar -->
+            <p class="placeholder-text">
+              Insira aqui a história da Clincar: como a empresa começou, sua trajetória
+              e o que a define hoje. Utilize apenas informações confirmadas pela empresa.
+            </p>
+            <p class="placeholder-text">
+              Este parágrafo pode ser usado para complementar a apresentação, por exemplo,
+              com a área de atuação e o público atendido.
+            </p>
+          </article>
+
+          <div class="about-side">
+            <article class="about-card reveal">
+              <span class="about-card-index" aria-hidden="true">01</span>
+              <div>
+                <h3>Missão <span class="tag">Provisório</span></h3>
+                <!-- EDITAR: missão oficial -->
+                <p class="placeholder-text">Descreva aqui a missão oficial da Clincar.</p>
+              </div>
+            </article>
+            <article class="about-card reveal">
+              <span class="about-card-index" aria-hidden="true">02</span>
+              <div>
+                <h3>Visão <span class="tag">Provisório</span></h3>
+                <!-- EDITAR: visão oficial -->
+                <p class="placeholder-text">Descreva aqui a visão de futuro da empresa.</p>
+              </div>
+            </article>
+            <article class="about-card reveal">
+              <span class="about-card-index" aria-hidden="true">03</span>
+              <div>
+                <h3>Valores <span class="tag">Provisório</span></h3>
+                <!-- EDITAR: valores oficiais -->
+                <p class="placeholder-text">Liste aqui os valores que orientam o trabalho da Clincar.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SERVIÇOS ===================== -->
+    <section class="section services" id="servicos" aria-labelledby="servicos-titulo">
+      <div class="container">
+        <header class="section-head section-head--split">
+          <div>
+            <p class="eyebrow">Serviços</p>
+            <h2 class="section-title" id="servicos-titulo">O que oferecemos</h2>
+          </div>
+          <p class="section-lead">
+            Os cartões abaixo estão prontos para receber os serviços oficiais da Clincar.
+            Para cada um, informe o nome e uma breve descrição.
+          </p>
+        </header>
+
+        <!-- EDITAR: substitua cada cartão por um serviço oficial. Duplique ou remova cartões conforme necessário. -->
+        <ul class="service-grid" role="list">
+          <li class="service-card reveal">
+            <span class="service-num" aria-hidden="true">01</span>
+            <span class="tag">Provisório</span>
+            <h3>Nome do serviço</h3>
+            <p class="placeholder-text">Breve descrição do serviço oficial, em uma ou duas frases.</p>
+          </li>
+          <li class="service-card reveal">
+            <span class="service-num" aria-hidden="true">02</span>
+            <span class="tag">Provisório</span>
+            <h3>Nome do serviço</h3>
+            <p class="placeholder-text">Breve descrição do serviço oficial, em uma ou duas frases.</p>
+          </li>
+          <li class="service-card reveal">
+            <span class="service-num" aria-hidden="true">03</span>
+            <span class="tag">Provisório</span>
+            <h3>Nome do serviço</h3>
+            <p class="placeholder-text">Breve descrição do serviço oficial, em uma ou duas frases.</p>
+          </li>
+          <li class="service-card reveal">
+            <span class="service-num" aria-hidden="true">04</span>
+            <span class="tag">Provisório</span>
+            <h3>Nome do serviço</h3>
+            <p class="placeholder-text">Breve descrição do serviço oficial, em uma ou duas frases.</p>
+          </li>
+          <li class="service-card reveal">
+            <span class="service-num" aria-hidden="true">05</span>
+            <span class="tag">Provisório</span>
+            <h3>Nome do serviço</h3>
+            <p class="placeholder-text">Breve descrição do serviço oficial, em uma ou duas frases.</p>
+          </li>
+          <li class="service-card reveal">
+            <span class="service-num" aria-hidden="true">06</span>
+            <span class="tag">Provisório</span>
+            <h3>Nome do serviço</h3>
+            <p class="placeholder-text">Breve descrição do serviço oficial, em uma ou duas frases.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== DIFERENCIAIS ===================== -->
+    <section class="section highlights" id="diferenciais" aria-labelledby="diferenciais-titulo">
+      <div class="container">
+        <header class="section-head section-head--light">
+          <p class="eyebrow eyebrow--light">Diferenciais</p>
+          <h2 class="section-title" id="diferenciais-titulo">O que distingue a Clincar</h2>
+          <p class="section-lead">
+            Espaço reservado para os diferenciais confirmados pela empresa.
+            Inclua somente características reais e verificáveis.
+          </p>
+        </header>
+
+        <!-- EDITAR: substitua por diferenciais reais e confirmados pela Clincar -->
+        <ol class="highlight-list">
+          <li class="highlight reveal">
+            <span class="highlight-num" aria-hidden="true">01</span>
+            <h3>Diferencial a definir</h3>
+            <p>Descreva aqui um diferencial confirmado pela Clincar.</p>
+            <span class="tag tag--dark">Provisório</span>
+          </li>
+          <li class="highlight reveal">
+            <span class="highlight-num" aria-hidden="true">02</span>
+            <h3>Diferencial a definir</h3>
+            <p>Descreva aqui um diferencial confirmado pela Clincar.</p>
+            <span class="tag tag--dark">Provisório</span>
+          </li>
+          <li class="highlight reveal">
+            <span class="highlight-num" aria-hidden="true">03</span>
+            <h3>Diferencial a definir</h3>
+            <p>Descreva aqui um diferencial confirmado pela Clincar.</p>
+            <span class="tag tag--dark">Provisório</span>
+          </li>
+          <li class="highlight reveal">
+            <span class="highlight-num" aria-hidden="true">04</span>
+            <h3>Diferencial a definir</h3>
+            <p>Descreva aqui um diferencial confirmado pela Clincar.</p>
+            <span class="tag tag--dark">Provisório</span>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===================== CONTATO ===================== -->
+    <section class="section contact" id="contato" aria-labelledby="contato-titulo">
+      <div class="container contact-inner">
+        <header class="section-head contact-head">
+          <p class="eyebrow">Contato</p>
+          <h2 class="section-title" id="contato-titulo">Fale com a Clincar</h2>
+          <p class="section-lead">
+            Os canais oficiais de atendimento serão publicados aqui assim que forem informados pela empresa.
+          </p>
+          <div class="notice" role="note">
+            <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="8" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10 9v5M10 6.2v.1" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            <p>Nenhum canal de contato foi configurado ainda. Os campos desta seção aguardam as informações oficiais.</p>
+          </div>
+        </header>
+
+        <!--
+          EDITAR: quando os dados oficiais forem fornecidos, substitua o texto "A informar"
+          e, se desejar, transforme o valor em link. Exemplos:
+            Telefone:  <a href="tel:+55DDDNUMERO">(DDD) NÚMERO</a>
+            WhatsApp:  <a href="https://wa.me/55DDDNUMERO" target="_blank" rel="noopener">Conversar no WhatsApp</a>
+          Depois, remova a classe "is-pending" do item correspondente.
+        -->
+        <ul class="contact-list" role="list">
+          <li class="contact-item is-pending reveal">
+            <span class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M6.6 3.5h2.6l1.4 4-2 1.3a11 11 0 0 0 6.6 6.6l1.3-2 4 1.4v2.6a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+            </span>
+            <div class="contact-body">
+              <h3>Telefone</h3>
+              <p class="contact-value">A informar</p>
+            </div>
+            <span class="tag">Pendente</span>
+          </li>
+          <li class="contact-item is-pending reveal">
+            <span class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 20l1.2-3.8A8 8 0 1 1 8 19l-4 1Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 9.5c.3 2.3 2.2 4.2 4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </span>
+            <div class="contact-body">
+              <h3>WhatsApp</h3>
+              <p class="contact-value">A informar</p>
+            </div>
+            <span class="tag">Pendente</span>
+          </li>
+          <li class="contact-item is-pending reveal">
+            <span class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><circle cx="12" cy="9.5" r="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+            </span>
+            <div class="contact-body">
+              <h3>Endereço</h3>
+              <p class="contact-value">A informar</p>
+            </div>
+            <span class="tag">Pendente</span>
+          </li>
+          <li class="contact-item is-pending reveal">
+            <span class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <div class="contact-body">
+              <h3>Horário de funcionamento</h3>
+              <p class="contact-value">A informar</p>
+            </div>
+            <span class="tag">Pendente</span>
+          </li>
+          <li class="contact-item is-pending reveal">
+            <span class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><circle cx="6" cy="12" r="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="18" cy="6" r="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="18" cy="18" r="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m8.2 10.9 7.6-3.8M8.2 13.1l7.6 3.8" stroke="currentColor" stroke-width="1.6"/></svg>
+            </span>
+            <div class="contact-body">
+              <h3>Redes sociais oficiais</h3>
+              <p class="contact-value">A informar</p>
+            </div>
+            <span class="tag">Pendente</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== RODAPÉ ===================== -->
+  <footer class="site-footer">
+    <div class="footer-accent" aria-hidden="true"></div>
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand brand--light" href="#inicio" aria-label="Clincar — voltar ao início">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-name">Clincar</span>
+        </a>
+        <p>Site institucional da Clincar.</p>
+      </div>
+
+      <nav class="footer-col" aria-label="Navegação do rodapé">
+        <h2 class="footer-title">Navegação</h2>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre nós</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#diferenciais">Diferenciais</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <!-- EDITAR: informações oficiais da empresa -->
+      <div class="footer-col">
+        <h2 class="footer-title">Informações oficiais</h2>
+        <ul class="footer-info">
+          <li><span>Razão social / CNPJ</span> A informar</li>
+          <li><span>Endereço</span> A informar</li>
+          <li><span>Telefone</span> A informar</li>
+        </ul>
+      </div>
+
+      <!-- EDITAR: links para os perfis oficiais. Não adicione perfis não confirmados. -->
+      <div class="footer-col">
+        <h2 class="footer-title">Redes sociais</h2>
+        <p class="footer-pending">Perfis oficiais a informar.</p>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; <span data-year>2026</span> Clincar. Todos os direitos reservados.</p>
+      <a class="back-top" href="#inicio">Voltar ao topo <span aria-hidden="true">↑</span></a>
+    </div>
+  </footer>
+</body>
+</html>
