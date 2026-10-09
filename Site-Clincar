@@ -1,0 +1,247 @@
+index.html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clincar | Site Oficial</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      color: #292929;
+      background: #ffffff;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #c82026;
+      color: #ffffff;
+      padding: 20px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin-left: 18px;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 90px 7%;
+      background: #fff1b8;
+    }
+
+    .hero h1 {
+      color: #b51f24;
+      font-size: clamp(34px, 6vw, 52px);
+      max-width: 800px;
+      margin: 20px auto;
+      line-height: 1.2;
+    }
+
+    .hero p {
+      max-width: 650px;
+      margin: 0 auto 25px;
+      font-size: 18px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #c82026;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 14px 24px;
+      margin: 5px;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      background: #991b20;
+    }
+
+    section {
+      padding: 65px 7%;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 32px;
+      color: #b51f24;
+      margin-bottom: 20px;
+    }
+
+    .intro {
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto 35px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      background: #ffffff;
+      border: 1px solid #eeeeee;
+      border-top: 5px solid #f4c430;
+      border-radius: 10px;
+      padding: 28px;
+    }
+
+    .card h3 {
+      color: #c82026;
+      margin-bottom: 12px;
+    }
+
+    .about {
+      background: #fff6d6;
+      text-align: center;
+    }
+
+    .about p {
+      max-width: 750px;
+      margin: 0 auto;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    footer {
+      background: #c82026;
+      color: #ffffff;
+      text-align: center;
+      padding: 28px;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        justify-content: center;
+        gap: 15px;
+      }
+
+      nav {
+        text-align: center;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 5px 8px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">Clincar</div>
+
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero" id="inicio">
+      <p><strong>BEM-VINDO À CLINCAR</strong></p>
+
+      <h1>Cuidado, confiança e qualidade no atendimento.</h1>
+
+      <p>
+        Conheça a Clincar e descubra mais sobre os serviços
+        oferecidos pela empresa.
+      </p>
+
+      <a class="button" href="#contato">Entre em contato</a>
+      <a class="button" href="#servicos">Conheça os serviços</a>
+    </section>
+
+    <section id="servicos">
+      <h2>Nossos serviços</h2>
+
+      <p class="intro">
+        Conheça os serviços oferecidos pela Clincar.
+        As informações serão personalizadas com os dados oficiais.
+      </p>
+
+      <div class="cards">
+
+        <article class="card">
+          <h3>Atendimento</h3>
+          <p>
+            Informações sobre o atendimento oferecido
+            pela Clincar.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Serviços especializados</h3>
+          <p>
+            Conheça os serviços e as especialidades
+            disponíveis na empresa.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Informações e suporte</h3>
+          <p>
+            Entre em contato para esclarecer dúvidas
+            e conhecer melhor a Clincar.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="about" id="sobre">
+      <h2>Sobre a Clincar</h2>
+
+      <p>
+        Esta seção apresentará a história da empresa,
+        sua equipe e seus diferenciais.
+      </p>
+    </section>
+
+    <section class="contact" id="contato">
+      <h2>Fale conosco</h2>
+
+      <p class="intro">
+        Em breve, adicionaremos o WhatsApp oficial,
+        o endereço e os horários de atendimento.
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p><strong>Clincar</strong></p>
+    <p>Todos os direitos reservados © 2026 Clincar</p>
+  </footer>
+
+</body>
+</html>
